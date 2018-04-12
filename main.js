@@ -51,3 +51,6 @@ app.on('ready', createWindow);
 ipc.on('update-notify-value', function(event, arg){
     win.webContents.send('targetPriceVal', arg)
 })
+
+
+

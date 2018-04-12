@@ -16,3 +16,4 @@ updateBtn.addEventListener('click', function(){
     var window = remote.getCurrentWindow();
     // window.close();
 })
+

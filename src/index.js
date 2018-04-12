@@ -49,3 +49,4 @@ ipc.on('targetPriceVal', function(event, arg){
     targetPriceVal = Number(arg)
     targetPrice.innerHTML = '$' + targetPriceVal.toLocaleString('en')
 })
+
